@@ -1,0 +1,26 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "react",
+  "outputDirectory": "dist",
+  "env": ["VITE_ANTHROPIC_API_KEY"],
+  "deploymentChecks": {
+    "enabled": true,
+    "checks": [
+      {
+        "path": "**/*.{js,jsx}",
+        "use": "@vercel/ncc",
+        "config": { "command": "npm run lint" }
+      },
+      {
+        "path": "package.json",
+        "use": "@vercel/static",
+        "config": { "command": "npm run build" }
+      }
+    ]
+  },
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
+  "headers": [{ "source": "/api/(.*)", "headers": [{ "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" }] }]
+}
+Add vercel deployment checks.
