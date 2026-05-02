@@ -1,0 +1,49 @@
+{
+  "publication": "Watchtower",
+  "study_date": "2026-05-02",
+  "title": "Sample Study Title",
+  "subtitle": "Study Subtitle or Focus",
+  "paragraphs": [
+    {
+      "number": 1,
+      "text": "Paragraph 1 original text goes here from the Watchtower publication.",
+      "pidgin_answer": "Paragraph 1 di answer in Pidgin English go explain di main point wey di paragraph teach us.",
+      "key_points": [
+        "First key point about the paragraph",
+        "Second key point to remember"
+      ],
+      "cross_references": [
+        "Matthew 5:3-12",
+        "1 Peter 1:3-5"
+      ]
+    },
+    {
+      "number": 2,
+      "text": "Paragraph 2 original text goes here from the Watchtower publication.",
+      "pidgin_answer": "Paragraph 2 discuss about how we suppose fi apply di teaching to our daily life situation.",
+      "key_points": [
+        "Application in daily life",
+        "How to show faith"
+      ],
+      "cross_references": [
+        "James 2:26",
+        "Proverbs 3:5-6"
+      ]
+    },
+    {
+      "number": 3,
+      "text": "Paragraph 3 original text continues the thought from previous paragraphs.",
+      "pidgin_answer": "Paragraph 3 show us how di Bible example dem help us fi understand di deep meaning of di truth.",
+      "key_points": [
+        "Bible examples are important",
+        "Personal reflection needed"
+      ],
+      "cross_references": [
+        "Romans 15:4"
+      ]
+    }
+  ],
+  "study_theme": "Main theme of the study",
+  "opening_comment": "Opening comment or introduction",
+  "closing_thoughts": "Thoughts to take away from this study"
+}
